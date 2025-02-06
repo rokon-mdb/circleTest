@@ -265,6 +265,11 @@ class MainActivity : AppCompatActivity() {
                     Log.d("agora_tag", "channel media Relay failed at error code: $code")
                 }
 
+                11 -> {
+                    showToast("channel media Relay failed at error code: $code")
+                    Log.d("agora_tag", "channel media Relay failed at error code: $code")
+                }
+
                 else -> {
                     Log.d("agora_tag", "channel media Relay: state: $state")
                 }
